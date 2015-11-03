@@ -1,0 +1,1854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		01534FCAFF2CDACC11CA2474 = {
+			children = (
+				01539D810037561B11CA21EF,
+				01539D820037561B11CA21EF,
+				01539D830037561B11CA21EF,
+				01539D840037561B11CA21EF,
+				01539D850037561B11CA21EF,
+				01539D860037561B11CA21EF,
+				01539D870037561B11CA21EF,
+				01539D880037561B11CA21EF,
+				01539D890037561B11CA21EF,
+				01539D8A0037561B11CA21EF,
+				01539D8B0037561B11CA21EF,
+				01539D8C0037561B11CA21EF,
+				01539D8D0037561B11CA21EF,
+				01539D8E0037561B11CA21EF,
+				01539D8F0037561B11CA21EF,
+				01539D900037561B11CA21EF,
+			);
+			isa = PBXGroup;
+			name = SamplePM;
+			path = "";
+			refType = 4;
+		};
+		01534FD0FF2CDACC11CA2474 = {
+			buildPhases = (
+				01534FD1FF2CDACC11CA2474,
+				01534FD2FF2CDACC11CA2474,
+				01534FD3FF2CDACC11CA2474,
+				01534FD4FF2CDACC11CA2474,
+				01534FD5FF2CDACC11CA2474,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Frameworks\"";
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers\" ../USBGenericPrinterClass";
+				INSTALL_PATH = /Library/Printers/Sample;
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_CFLAGS = "-fconstant-cfstrings";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SamplePM;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = SamplePM.plugin;
+			productInstallPath = /Library/Printers/Sample;
+			productName = SamplePM;
+			productReference = 0485F595FFDC48047F000001;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SamplePM</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pmvendor.print.sample.pm</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SamplePM</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>E4089DDE-935D-11D6-9F32-003065A0DEE8</key>
+		<string>PMPluginFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>5D69ED5E-D5B5-11D3-9EFF-00050209D9C1</key>
+		<array>
+			<string>E4089DDE-935D-11D6-9F32-003065A0DEE8</string>
+		</array>
+	</dict>
+</dict>
+</plist>
+";
+		};
+		01534FD1FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				01539D980037561B11CA21EF,
+				01539D990037561B11CA21EF,
+				01539D9A0037561B11CA21EF,
+				01539D9B0037561B11CA21EF,
+				01539D9C0037561B11CA21EF,
+				01539D9D0037561B11CA21EF,
+				01539D9E0037561B11CA21EF,
+				01539D9F0037561B11CA21EF,
+				AAF51D9302747C5203CA2474,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FD2FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				01539DA00037561B11CA21EF,
+				01539DA10037561B11CA21EF,
+				01539DA20037561B11CA21EF,
+				01539DA30037561B11CA21EF,
+				01539DA40037561B11CA21EF,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FD3FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				01539DA50037561B11CA21EF,
+				01539DA60037561B11CA21EF,
+				01539DA70037561B11CA21EF,
+				01539DA80037561B11CA21EF,
+				01539DA90037561B11CA21EF,
+				01539DAA0037561B11CA21EF,
+				01539DAB0037561B11CA21EF,
+				01539DAC0037561B11CA21EF,
+				AAF51D9402747C5303CA2474,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FD4FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				02C125BBFFE8097011CA24C1,
+				02C125BCFFE8097011CA24C1,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FD5FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				01539DAD0037561B11CA21EF,
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FD7FF2CDACC11CA2474 = {
+			buildPhases = (
+				01534FD8FF2CDACC11CA2474,
+				01534FD9FF2CDACC11CA2474,
+				01534FDAFF2CDACC11CA2474,
+				01534FDBFF2CDACC11CA2474,
+				01534FDCFF2CDACC11CA2474,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Frameworks\"";
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/IOKit.framework/Headers\"";
+				INSTALL_PATH = /Library/Printers/Sample;
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_CFLAGS = "-fconstant-cfstrings";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDK_USBIOM;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = SDK_USBIOM.plugin;
+			productInstallPath = /Library/Printers/Sample;
+			productName = SDK_USBIOM;
+			productReference = 0485F594FFDC48047F000001;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SDK_USBIOM</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pmvendor.print.iom.USB</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>AC9D524C-AAD5-11D4-8D35-0030656DE360</key>
+		<string>IOPluginFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>EE5A5E5C-C2DD-11D3-84B5-00050209D9C1</key>
+		<array>
+			<string>AC9D524C-AAD5-11D4-8D35-0030656DE360</string>
+		</array>
+	</dict>
+</dict>
+</plist>
+";
+		};
+		01534FD8FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				10FB8E2BFFA8CB0211CA2450,
+				F57342BC0273336E01D6CB13,
+				F57342BD0273336E01D6CB13,
+				F57342BE0273336E01D6CB13,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FD9FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FDAFF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				10FB8E2CFFA8CB0211CA2450,
+				10FB8E2DFFA8CB0211CA2450,
+				F57342BF0273336E01D6CB13,
+				F57342C00273336E01D6CB13,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FDBFF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				02C125BDFFE809B011CA24C1,
+				02C125BEFFE809B011CA24C1,
+				513EF08C0107BEFC0ACA21EF,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FDCFF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FDEFF2CDACC11CA2474 = {
+			buildPhases = (
+				01534FDFFF2CDACC11CA2474,
+				01534FE0FF2CDACC11CA2474,
+				01534FE1FF2CDACC11CA2474,
+				01534FE2FF2CDACC11CA2474,
+				01534FE3FF2CDACC11CA2474,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Frameworks\"";
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/PrivateHeaders\"";
+				INSTALL_PATH = /Library/Printers/Sample;
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_CFLAGS = "-fconstant-cfstrings";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDK_USBPBM;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = SDK_USBPBM.plugin;
+			productInstallPath = /Library/Printers/Sample;
+			productName = SDK_USBPBM;
+			productReference = 0485F596FFDC48047F000001;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SDK_USBPBM</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pmvendor.print.pbm.USB</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>651BD228-AB65-11D4-AC04-0030656DE360</key>
+		<string>USBPBFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>23F71E46-95CC-1226-AC04-000502ADB00B</key>
+		<array>
+			<string>651BD228-AB65-11D4-AC04-0030656DE360</string>
+		</array>
+	</dict>
+</dict>
+</plist>
+";
+		};
+		01534FDFFF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				10FB8E30FFA8CB2C11CA2450,
+				10FB8E31FFA8CB2C11CA2450,
+				10FB8E41FFA8CBDA11CA2450,
+				10FB8E42FFA8CBDA11CA2450,
+				10FB8E43FFA8CBDA11CA2450,
+				10FB8E44FFA8CBDA11CA2450,
+				F57342C10273336E01D6CB13,
+				F57342C20273336E01D6CB13,
+				F57342C30273336E01D6CB13,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE0FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE1FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				10FB8E48FFA8CBDA11CA2450,
+				10FB8E49FFA8CBDA11CA2450,
+				10FB8E4AFFA8CBDA11CA2450,
+				10FB8E4BFFA8CBDA11CA2450,
+				513EF09B0107C3B80ACA21EF,
+				F57342C40273336E01D6CB13,
+				F57342C50273336E01D6CB13,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE2FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				02C125BFFFE809B011CA24C1,
+				02C125C0FFE809B011CA24C1,
+				0C517CE1FFE843DB11CA24C1,
+				513EF08D0107BEFC0ACA21EF,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE3FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE5FF2CDACC11CA2474 = {
+			buildPhases = (
+				01534FE6FF2CDACC11CA2474,
+				01534FE7FF2CDACC11CA2474,
+				01534FE8FF2CDACC11CA2474,
+				01534FE9FF2CDACC11CA2474,
+				01534FEAFF2CDACC11CA2474,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks\" \"$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Frameworks\"";
+				HEADER_SEARCH_PATHS = "/System/Library/Frameworks/Print.framework/Headers /System/Library/Frameworks/PrintCore.framework/Headers";
+				INSTALL_MODE_FLAG = "u+x";
+				INSTALL_PATH = /Library/Printers/Sample;
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_CFLAGS = "-fconstant-cfstrings";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-i \"PrintQualityPDE/Source/\"";
+				PRODUCT_NAME = PrintQuality;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+				04082498FF42257411CA2470,
+			);
+			isa = PBXBundleTarget;
+			name = PrintQuality.plugin;
+			productInstallPath = /Library/Printers/Sample;
+			productName = PrintQuality;
+			productReference = 0485F597FFDC48047F000001;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>PrintQuality</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pmvendor.print.pde.PrintQuality</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>26DADC8E-2231-11D4-BD55-0050E4603277</key>
+		<string>PrintQualityPluginFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>BDB091F4-E57F-11D3-B5CC-0050E4603277</key>
+		<array>
+			<string>26DADC8E-2231-11D4-BD55-0050E4603277</string>
+		</array>
+	</dict>
+</dict>
+</plist>
+";
+		};
+		01534FE6FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				08310173FF9D144211CA2474,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE7FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				01578B480030CEC711CA21DD,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE8FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				0159E3B1FF2D06AE11CA2474,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FE9FF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				01738D48FF2E6B1111CA2474,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01534FEAFF2CDACC11CA2474 = {
+			buildActionMask = 2147483647;
+			files = (
+				026C3B78FFA60B7F11CA2450,
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01539D810037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = Engine.cp;
+			path = SamplePM/Source/Engine.cp;
+			refType = 4;
+		};
+		01539D820037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = Engine.h;
+			path = SamplePM/Source/Engine.h;
+			refType = 4;
+		};
+		01539D830037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = EnginePCL.cp;
+			path = SamplePM/Source/EnginePCL.cp;
+			refType = 4;
+		};
+		01539D840037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = EnginePCL.h;
+			path = SamplePM/Source/EnginePCL.h;
+			refType = 4;
+		};
+		01539D850037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = Exception.cp;
+			path = SamplePM/Source/Exception.cp;
+			refType = 4;
+		};
+		01539D860037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = Exception.h;
+			path = SamplePM/Source/Exception.h;
+			refType = 4;
+		};
+		01539D870037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = Halftone.h;
+			path = SamplePM/Source/Halftone.h;
+			refType = 4;
+		};
+		01539D880037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = PCLUtils.cp;
+			path = SamplePM/Source/PCLUtils.cp;
+			refType = 4;
+		};
+		01539D890037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = PluginInterface.cp;
+			path = SamplePM/Source/PluginInterface.cp;
+			refType = 4;
+		};
+		01539D8A0037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = PMIOHelper.c;
+			path = SamplePM/Source/PMIOHelper.c;
+			refType = 4;
+		};
+		01539D8B0037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = PMIOHelper.h;
+			path = SamplePM/Source/PMIOHelper.h;
+			refType = 4;
+		};
+		01539D8C0037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = RasterDefines.h;
+			path = SamplePM/Source/RasterDefines.h;
+			refType = 4;
+		};
+		01539D8D0037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = RasterModule.cp;
+			path = SamplePM/Source/RasterModule.cp;
+			refType = 4;
+		};
+		01539D8E0037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = RasterModule.h;
+			path = SamplePM/Source/RasterModule.h;
+			refType = 4;
+		};
+		01539D8F0037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = RasterUtils.cp;
+			path = SamplePM/Source/RasterUtils.cp;
+			refType = 4;
+		};
+		01539D900037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = SneakerObject.h;
+			path = SamplePM/Source/SneakerObject.h;
+			refType = 4;
+		};
+		01539D910037561B11CA21EF = {
+			children = (
+				01539D920037561B11CA21EF,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			path = "";
+			refType = 4;
+		};
+		01539D920037561B11CA21EF = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = English;
+			path = SamplePM/Resources/English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		01539D930037561B11CA21EF = {
+			isa = PBXFileReference;
+			name = InvertedRB.icc;
+			path = SamplePM/Resources/InvertedRB.icc;
+			refType = 4;
+		};
+		01539D940037561B11CA21EF = {
+			isa = PBXFileReference;
+			name = PMColorDeviceProfiles.xml;
+			path = SamplePM/Resources/PMColorDeviceProfiles.xml;
+			refType = 4;
+		};
+		01539D950037561B11CA21EF = {
+			isa = PBXFileReference;
+			name = Sample.icns;
+			path = SamplePM/Resources/Sample.icns;
+			refType = 4;
+		};
+		01539D960037561B11CA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = Sample.r;
+			path = SamplePM/Resources/Sample.r;
+			refType = 4;
+		};
+		01539D970037561B11CA21EF = {
+			isa = PBXFileReference;
+			name = sRGB.icc;
+			path = SamplePM/Resources/sRGB.icc;
+			refType = 4;
+		};
+		01539D980037561B11CA21EF = {
+			fileRef = 01539D820037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539D990037561B11CA21EF = {
+			fileRef = 01539D840037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539D9A0037561B11CA21EF = {
+			fileRef = 01539D860037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539D9B0037561B11CA21EF = {
+			fileRef = 01539D870037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539D9C0037561B11CA21EF = {
+			fileRef = 01539D8B0037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539D9D0037561B11CA21EF = {
+			fileRef = 01539D8C0037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539D9E0037561B11CA21EF = {
+			fileRef = 01539D8E0037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539D9F0037561B11CA21EF = {
+			fileRef = 01539D900037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA00037561B11CA21EF = {
+			fileRef = 01539D930037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA10037561B11CA21EF = {
+			fileRef = 01539D940037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA20037561B11CA21EF = {
+			fileRef = 01539D950037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA30037561B11CA21EF = {
+			fileRef = 01539D970037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA40037561B11CA21EF = {
+			fileRef = 01539D910037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA50037561B11CA21EF = {
+			fileRef = 01539D810037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA60037561B11CA21EF = {
+			fileRef = 01539D830037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA70037561B11CA21EF = {
+			fileRef = 01539D850037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA80037561B11CA21EF = {
+			fileRef = 01539D880037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DA90037561B11CA21EF = {
+			fileRef = 01539D890037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DAA0037561B11CA21EF = {
+			fileRef = 01539D8A0037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DAB0037561B11CA21EF = {
+			fileRef = 01539D8D0037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DAC0037561B11CA21EF = {
+			fileRef = 01539D8F0037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01539DAD0037561B11CA21EF = {
+			fileRef = 01539D960037561B11CA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01578B460030CEC711CA21DD = {
+			children = (
+				01578B470030CEC711CA21DD,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			path = "";
+			refType = 4;
+		};
+		01578B470030CEC711CA21DD = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = English;
+			path = PrintQualityPDE/Resources/English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		01578B480030CEC711CA21DD = {
+			fileRef = 01578B460030CEC711CA21DD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0159E36EFF2D040811CA2474 = {
+			children = (
+				10FB8E29FFA8CB0211CA2450,
+				10FB8E28FFA8CB0211CA2450,
+				10FB8E2AFFA8CB0211CA2450,
+			);
+			isa = PBXGroup;
+			name = USBIOM;
+			path = "";
+			refType = 4;
+		};
+		0159E36FFF2D040811CA2474 = {
+			children = (
+				10FB8E2EFFA8CB2C11CA2450,
+				10FB8E2FFFA8CB2C11CA2450,
+				513EF09A0107C3B80ACA21EF,
+				10FB8E37FFA8CBDA11CA2450,
+				10FB8E38FFA8CBDA11CA2450,
+				10FB8E39FFA8CBDA11CA2450,
+				10FB8E3AFFA8CBDA11CA2450,
+				10FB8E3BFFA8CBDA11CA2450,
+				10FB8E3CFFA8CBDA11CA2450,
+				10FB8E3DFFA8CBDA11CA2450,
+				10FB8E3EFFA8CBDA11CA2450,
+			);
+			isa = PBXGroup;
+			name = USBPBM;
+			path = "";
+			refType = 4;
+		};
+		0159E370FF2D040811CA2474 = {
+			children = (
+				0159E3B0FF2D06AE11CA2474,
+				08310172FF9D144211CA2474,
+			);
+			isa = PBXGroup;
+			name = PDEQuality;
+			path = "";
+			refType = 4;
+		};
+		0159E3B0FF2D06AE11CA2474 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = PrintQuality.cp;
+			path = PrintQualityPDE/Source/PrintQuality.cp;
+			refType = 2;
+			tabWidth = 4;
+			usesTabs = 1;
+		};
+		0159E3B1FF2D06AE11CA2474 = {
+			fileRef = 0159E3B0FF2D06AE11CA2474;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0159E3BEFF2D117111CA2474 = {
+			children = (
+				F57342B70273336E01D6CB13,
+				F57342B80273336E01D6CB13,
+				F57342B90273336E01D6CB13,
+				F57342BA0273336E01D6CB13,
+				F57342BB0273336E01D6CB13,
+			);
+			isa = PBXGroup;
+			name = USBCommon;
+			refType = 4;
+		};
+		0159E3C7FF2D13DD11CA2474 = {
+			isa = PBXFrameworkReference;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+		};
+		01738D45FF2E6A1411CA2474 = {
+			isa = PBXFrameworkReference;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+		};
+		01738D48FF2E6B1111CA2474 = {
+			fileRef = 01738D45FF2E6A1411CA2474;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//010
+//011
+//012
+//013
+//014
+//020
+//021
+//022
+//023
+//024
+		026C3B75FFA60B7F11CA2450 = {
+			children = (
+				026C3B76FFA60B7F11CA2450,
+			);
+			isa = PBXVariantGroup;
+			name = PrintQuality.r;
+			path = "";
+			refType = 4;
+		};
+		026C3B76FFA60B7F11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = English;
+			path = PrintQualityPDE/Resources/English.lproj/PrintQuality.r;
+			refType = 4;
+		};
+		026C3B78FFA60B7F11CA2450 = {
+			fileRef = 026C3B75FFA60B7F11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02C125BAFFE8097011CA24C1 = {
+			isa = PBXFrameworkReference;
+			name = ApplicationServices.framework;
+			path = /System/Library/Frameworks/ApplicationServices.framework;
+			refType = 0;
+		};
+		02C125BBFFE8097011CA24C1 = {
+			fileRef = 02C125BAFFE8097011CA24C1;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02C125BCFFE8097011CA24C1 = {
+			fileRef = 0159E3C7FF2D13DD11CA2474;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02C125BDFFE809B011CA24C1 = {
+			fileRef = 02C125BAFFE8097011CA24C1;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02C125BEFFE809B011CA24C1 = {
+			fileRef = 0159E3C7FF2D13DD11CA2474;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02C125BFFFE809B011CA24C1 = {
+			fileRef = 02C125BAFFE8097011CA24C1;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02C125C0FFE809B011CA24C1 = {
+			fileRef = 0159E3C7FF2D13DD11CA2474;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//020
+//021
+//022
+//023
+//024
+//040
+//041
+//042
+//043
+//044
+		04082498FF42257411CA2470 = {
+			isa = PBXTargetDependency;
+			target = 01534FD0FF2CDACC11CA2474;
+		};
+		0485F594FFDC48047F000001 = {
+			isa = PBXBundleReference;
+			path = SDK_USBIOM.plugin;
+			refType = 3;
+		};
+		0485F595FFDC48047F000001 = {
+			isa = PBXBundleReference;
+			path = SamplePM.plugin;
+			refType = 3;
+		};
+		0485F596FFDC48047F000001 = {
+			isa = PBXBundleReference;
+			path = SDK_USBPBM.plugin;
+			refType = 3;
+		};
+		0485F597FFDC48047F000001 = {
+			isa = PBXBundleReference;
+			path = PrintQuality.plugin;
+			refType = 3;
+		};
+		0485F598FFDC48047F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0485F599FFDC48047F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//040
+//041
+//042
+//043
+//044
+//080
+//081
+//082
+//083
+//084
+		08310172FF9D144211CA2474 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = PrintQuality.h;
+			path = PrintQualityPDE/Source/PrintQuality.h;
+			refType = 2;
+		};
+		08310173FF9D144211CA2474 = {
+			fileRef = 08310172FF9D144211CA2474;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		089C1669FE841209C02AAC07 = {
+			buildStyles = (
+				0485F598FFDC48047F000001,
+				0485F599FFDC48047F000001,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				12918E30FF3A24CB11CA2470,
+				01534FD0FF2CDACC11CA2474,
+				01534FD7FF2CDACC11CA2474,
+				01534FDEFF2CDACC11CA2474,
+				F57342CD0273394F01D6CB13,
+				01534FE5FF2CDACC11CA2474,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB6FE9D52B211CA2CBB,
+			);
+			isa = PBXGroup;
+			name = CFPlugInBundle;
+			refType = 4;
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				02C125BAFFE8097011CA24C1,
+				0159E3C7FF2D13DD11CA2474,
+				01738D45FF2E6A1411CA2474,
+				513EF08B0107BEFC0ACA21EF,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				32981DDEFFCAF19211CA2450,
+				32981DDFFFCAF19211CA2450,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				01534FCAFF2CDACC11CA2474,
+				0159E3BEFF2D117111CA2474,
+				0159E36EFF2D040811CA2474,
+				0159E36FFF2D040811CA2474,
+				F57342B60273334101D6CB13,
+				0159E370FF2D040811CA2474,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//0C0
+//0C1
+//0C2
+//0C3
+//0C4
+		0C517CE1FFE843DB11CA24C1 = {
+			fileRef = 01738D45FF2E6A1411CA2474;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//0C0
+//0C1
+//0C2
+//0C3
+//0C4
+//100
+//101
+//102
+//103
+//104
+		10FB8E28FFA8CB0211CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = IOPluginInterface.cp;
+			path = USBIOM/Source/IOPluginInterface.cp;
+			refType = 4;
+		};
+		10FB8E29FFA8CB0211CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USB.cp;
+			path = USBIOM/Source/USB.cp;
+			refType = 4;
+		};
+		10FB8E2AFFA8CB0211CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBIOInternals.h;
+			path = USBIOM/Source/USBIOInternals.h;
+			refType = 4;
+		};
+		10FB8E2BFFA8CB0211CA2450 = {
+			fileRef = 10FB8E2AFFA8CB0211CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10FB8E2CFFA8CB0211CA2450 = {
+			fileRef = 10FB8E28FFA8CB0211CA2450;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		10FB8E2DFFA8CB0211CA2450 = {
+			fileRef = 10FB8E29FFA8CB0211CA2450;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		10FB8E2EFFA8CB2C11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = CarbonOSXPrefix.h;
+			path = USBPBM/Source/CarbonOSXPrefix.h;
+			refType = 4;
+		};
+		10FB8E2FFFA8CB2C11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = CarbonPrefix.h;
+			path = USBPBM/Source/CarbonPrefix.h;
+			refType = 4;
+		};
+		10FB8E30FFA8CB2C11CA2450 = {
+			fileRef = 10FB8E2EFFA8CB2C11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10FB8E31FFA8CB2C11CA2450 = {
+			fileRef = 10FB8E2FFFA8CB2C11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10FB8E37FFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBBrowserListView.h;
+			path = USBPBM/Source/USBBrowserListView.h;
+			refType = 4;
+		};
+		10FB8E38FFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBItemList.cp;
+			path = USBPBM/Source/USBItemList.cp;
+			refType = 4;
+		};
+		10FB8E39FFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBItemList.h;
+			path = USBPBM/Source/USBItemList.h;
+			refType = 4;
+		};
+		10FB8E3AFFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBPrinter.cp;
+			path = USBPBM/Source/USBPrinter.cp;
+			refType = 4;
+		};
+		10FB8E3BFFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBPrinterBrowser.cp;
+			path = USBPBM/Source/USBPrinterBrowser.cp;
+			refType = 4;
+		};
+		10FB8E3CFFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBPrinterBrowser.h;
+			path = USBPBM/Source/USBPrinterBrowser.h;
+			refType = 4;
+		};
+		10FB8E3DFFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBPrinterList.cp;
+			path = USBPBM/Source/USBPrinterList.cp;
+			refType = 4;
+		};
+		10FB8E3EFFA8CBDA11CA2450 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBPrinterList.h;
+			path = USBPBM/Source/USBPrinterList.h;
+			refType = 4;
+		};
+		10FB8E41FFA8CBDA11CA2450 = {
+			fileRef = 10FB8E37FFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10FB8E42FFA8CBDA11CA2450 = {
+			fileRef = 10FB8E39FFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10FB8E43FFA8CBDA11CA2450 = {
+			fileRef = 10FB8E3CFFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10FB8E44FFA8CBDA11CA2450 = {
+			fileRef = 10FB8E3EFFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10FB8E48FFA8CBDA11CA2450 = {
+			fileRef = 10FB8E38FFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		10FB8E49FFA8CBDA11CA2450 = {
+			fileRef = 10FB8E3AFFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		10FB8E4AFFA8CBDA11CA2450 = {
+			fileRef = 10FB8E3BFFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		10FB8E4BFFA8CBDA11CA2450 = {
+			fileRef = 10FB8E3DFFA8CBDA11CA2450;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//120
+//121
+//122
+//123
+//124
+		12918E30FF3A24CB11CA2470 = {
+			buildPhases = (
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "-fconstant-cfstrings";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = All;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				12918E31FF3A24CB11CA2470,
+				12918E32FF3A24CB11CA2470,
+				12918E33FF3A24CB11CA2470,
+				F57342E002733C2E01D6CB13,
+				12918E34FF3A24CB11CA2470,
+			);
+			isa = PBXAggregateTarget;
+			name = All;
+			productName = All;
+		};
+		12918E31FF3A24CB11CA2470 = {
+			isa = PBXTargetDependency;
+			target = 01534FD0FF2CDACC11CA2474;
+		};
+		12918E32FF3A24CB11CA2470 = {
+			isa = PBXTargetDependency;
+			target = 01534FD7FF2CDACC11CA2474;
+		};
+		12918E33FF3A24CB11CA2470 = {
+			isa = PBXTargetDependency;
+			target = 01534FDEFF2CDACC11CA2474;
+		};
+		12918E34FF3A24CB11CA2470 = {
+			isa = PBXTargetDependency;
+			target = 01534FE5FF2CDACC11CA2474;
+		};
+//120
+//121
+//122
+//123
+//124
+//190
+//191
+//192
+//193
+//194
+		19C28FB6FE9D52B211CA2CBB = {
+			children = (
+				0485F595FFDC48047F000001,
+				0485F597FFDC48047F000001,
+				0485F594FFDC48047F000001,
+				0485F596FFDC48047F000001,
+				F57342CC0273394E01D6CB13,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//320
+//321
+//322
+//323
+//324
+		32981DDEFFCAF19211CA2450 = {
+			children = (
+				026C3B75FFA60B7F11CA2450,
+				01578B460030CEC711CA21DD,
+			);
+			isa = PBXGroup;
+			name = PrintQuality;
+			refType = 4;
+		};
+		32981DDFFFCAF19211CA2450 = {
+			children = (
+				01539D910037561B11CA21EF,
+				01539D930037561B11CA21EF,
+				01539D940037561B11CA21EF,
+				01539D950037561B11CA21EF,
+				01539D960037561B11CA21EF,
+				01539D970037561B11CA21EF,
+			);
+			isa = PBXGroup;
+			name = SamplePM;
+			refType = 4;
+		};
+//320
+//321
+//322
+//323
+//324
+//510
+//511
+//512
+//513
+//514
+		513EF08B0107BEFC0ACA21EF = {
+			isa = PBXFrameworkReference;
+			name = IOKit.framework;
+			path = /System/Library/Frameworks/IOKit.framework;
+			refType = 0;
+		};
+		513EF08C0107BEFC0ACA21EF = {
+			fileRef = 513EF08B0107BEFC0ACA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		513EF08D0107BEFC0ACA21EF = {
+			fileRef = 513EF08B0107BEFC0ACA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		513EF09A0107C3B80ACA21EF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBBrowserListView.cp;
+			path = USBPBM/Source/USBBrowserListView.cp;
+			refType = 4;
+		};
+		513EF09B0107C3B80ACA21EF = {
+			fileRef = 513EF09A0107C3B80ACA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//510
+//511
+//512
+//513
+//514
+//AA0
+//AA1
+//AA2
+//AA3
+//AA4
+		AAF51D9302747C5203CA2474 = {
+			fileRef = F57342B80273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAF51D9402747C5303CA2474 = {
+			fileRef = F57342B70273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//AA0
+//AA1
+//AA2
+//AA3
+//AA4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F57342B60273334101D6CB13 = {
+			children = (
+				F57342D3027339D001D6CB13,
+			);
+			isa = PBXGroup;
+			name = "USB Class Driver";
+			path = "";
+			refType = 4;
+		};
+		F57342B70273336E01D6CB13 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = DeviceID.c;
+			path = USBGenericPrinterClass/DeviceID.c;
+			refType = 4;
+		};
+		F57342B80273336E01D6CB13 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = DeviceID.h;
+			path = USBGenericPrinterClass/DeviceID.h;
+			refType = 4;
+		};
+		F57342B90273336E01D6CB13 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = PrinterClass.h;
+			path = USBGenericPrinterClass/PrinterClass.h;
+			refType = 4;
+		};
+		F57342BA0273336E01D6CB13 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBUtil.c;
+			path = USBGenericPrinterClass/USBUtil.c;
+			refType = 4;
+		};
+		F57342BB0273336E01D6CB13 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = USBUtil.h;
+			path = USBGenericPrinterClass/USBUtil.h;
+			refType = 4;
+		};
+		F57342BC0273336E01D6CB13 = {
+			fileRef = F57342B80273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342BD0273336E01D6CB13 = {
+			fileRef = F57342B90273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342BE0273336E01D6CB13 = {
+			fileRef = F57342BB0273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342BF0273336E01D6CB13 = {
+			fileRef = F57342B70273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342C00273336E01D6CB13 = {
+			fileRef = F57342BA0273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342C10273336E01D6CB13 = {
+			fileRef = F57342B80273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342C20273336E01D6CB13 = {
+			fileRef = F57342B90273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342C30273336E01D6CB13 = {
+			fileRef = F57342BB0273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342C40273336E01D6CB13 = {
+			fileRef = F57342B70273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342C50273336E01D6CB13 = {
+			fileRef = F57342BA0273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342CC0273394E01D6CB13 = {
+			isa = PBXBundleReference;
+			path = SDK_USBClassDriver.plugin;
+			refType = 3;
+		};
+		F57342CD0273394F01D6CB13 = {
+			buildPhases = (
+				F57342CE0273394F01D6CB13,
+				F57342CF0273394F01D6CB13,
+				F57342D00273394F01D6CB13,
+				F57342D10273394F01D6CB13,
+				F57342D20273394F01D6CB13,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/System/Library/Frameworks/Carbon.framework/Frameworks /System/Library/Frameworks/ApplicationServices.framework/Frameworks";
+				HEADER_SEARCH_PATHS = "/System/Library/Frameworks/Carbon.framework/Frameworks /System/Library/Frameworks/ApplicationServices.framework/Frameworks";
+				INSTALL_PATH = "~/Library/Printers/Libraries";
+				OTHER_LDFLAGS = "-bundle -twolevel_namespace -framework CoreFoundation -framework IOKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDK_USBClassDriver;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = SDK_USBClassDriver.plugin;
+			productInstallPath = "~/Library/Printers/Libraries";
+			productName = SDK_USBClassDriver;
+			productReference = F57342CC0273394E01D6CB13;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SDK_USBClassDriver</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<string>USBPrinterClassFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<array>
+			<string>00000000-0000-0000-0000-000000000000</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+</dict>
+</plist>
+";
+		};
+		F57342CE0273394F01D6CB13 = {
+			buildActionMask = 2147483647;
+			files = (
+				F57342D4027339D001D6CB13,
+				F57342D5027339D001D6CB13,
+				F57342D6027339D001D6CB13,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57342CF0273394F01D6CB13 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57342D00273394F01D6CB13 = {
+			buildActionMask = 2147483647;
+			files = (
+				F57342D7027339D001D6CB13,
+				F57342D8027339D001D6CB13,
+				F57342D9027339D001D6CB13,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57342D10273394F01D6CB13 = {
+			buildActionMask = 2147483647;
+			files = (
+				F57342DD02733B7F01D6CB13,
+				F57342DE02733B7F01D6CB13,
+				F57342DF02733B7F01D6CB13,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57342D20273394F01D6CB13 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57342D3027339D001D6CB13 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lineEnding = 0;
+			name = GenericClassDriver.c;
+			path = USBGenericPrinterClass/GenericClassDriver.c;
+			refType = 4;
+		};
+		F57342D4027339D001D6CB13 = {
+			fileRef = F57342B80273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342D5027339D001D6CB13 = {
+			fileRef = F57342B90273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342D6027339D001D6CB13 = {
+			fileRef = F57342BB0273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342D7027339D001D6CB13 = {
+			fileRef = F57342D3027339D001D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342D8027339D001D6CB13 = {
+			fileRef = F57342B70273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342D9027339D001D6CB13 = {
+			fileRef = F57342BA0273336E01D6CB13;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342DD02733B7F01D6CB13 = {
+			fileRef = 0159E3C7FF2D13DD11CA2474;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342DE02733B7F01D6CB13 = {
+			fileRef = 513EF08B0107BEFC0ACA21EF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342DF02733B7F01D6CB13 = {
+			fileRef = 02C125BAFFE8097011CA24C1;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F57342E002733C2E01D6CB13 = {
+			isa = PBXTargetDependency;
+			target = F57342CD0273394F01D6CB13;
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

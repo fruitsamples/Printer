@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>PMColorDeviceDefaultProfileID</key>
+	<integer>1</integer>
+	<key>PMColorDeviceProfiles</key>
+	<array>
+		<dict>
+			<key>PMColorDeviceProfileID</key>
+			<integer>1</integer>
+			<key>PMColorDeviceProfileName</key>
+			<string>InvertedRB</string>
+			<key>PMColorDeviceProfileURL</key>
+            <string>file://localhost/Library/Printers/Sample/SamplePM.plugin/Contents/Resources/sRGB.icc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

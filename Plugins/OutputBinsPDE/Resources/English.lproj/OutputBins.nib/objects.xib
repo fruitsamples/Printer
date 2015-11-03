@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="5" name="allObjects">
+    <object class="IBCarbonWindow" id="166">
+      <string name="windowRect">100 100 160 570 </string>
+      <string name="title">OutputBins</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="bounds">0 0 60 470 </string>
+        <array count="1" name="subviews">
+          <object class="IBCarbonPopupButton" id="195">
+            <string name="bounds">20 70 40 400 </string>
+            <ostype name="controlSignature">psob</ostype>
+            <int name="controlID">100</int>
+            <string name="title">Output Bin:</string>
+            <int name="titleJustification">0</int>
+            <object name="menu" class="IBCarbonMenu" id="191">
+              <string name="title">Popup:</string>
+              <array count="1" name="items">
+                <object class="IBCarbonMenuItem" id="192">
+                  <string name="title">Item 1</string>
+                </object>
+              </array>
+            </object>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveActivates">FALSE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="standardHandler">FALSE</boolean>
+      <int name="carbonWindowClass">6</int>
+      <int name="themeBrush">0</int>
+      <int name="windowPosition">0</int>
+    </object>
+    <reference idRef="167"/>
+    <reference idRef="191"/>
+    <reference idRef="192"/>
+    <reference idRef="195"/>
+  </array>
+  <array count="5" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+    <reference idRef="195"/>
+    <reference idRef="191"/>
+    <reference idRef="167"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Window</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">196</unsigned_int>
+</object>
