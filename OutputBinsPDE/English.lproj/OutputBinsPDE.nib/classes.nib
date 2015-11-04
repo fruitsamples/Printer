@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {requestNewOutputBin = id; }; 
+            CLASS = OutputBinsPDE; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {outputBinsPopup = NSPopUpButton; outputBinsView = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
